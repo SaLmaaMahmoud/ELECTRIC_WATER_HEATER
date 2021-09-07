@@ -44,13 +44,13 @@
 
 /* LED CONFIGURATION */
 #define LED_DIRECTION	OUTPUT
-#define LED_PORT		PORT_C
-#define LED_PIN			PIN5
+#define LED_PORT		  PORT_C
+#define LED_PIN			  PIN5
 /***********************/
 
 /* 7-SEGMENT */
 #define SSD_DIRECTION	OUTPUT
-#define SSD_PORT		PORT_D
+#define SSD_PORT		  PORT_D
 #define SSD_EN_PORT		PORT_C
 #define SSD1_EN_PIN		PIN3
 #define SSD2_EN_PIN		PIN4			
