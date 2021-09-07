@@ -85,11 +85,6 @@ void SCH_Dispatch_Tasks(void) ;
   Return type : void */
 void SCH_Start(void) ;
 	
-/*Description : To disable interrupts.
-  Parameters  : none
-  Return type : void */
-void SCH_STOP(void) ;
-	
 /*Description : Delete Tasks from the array
   Parameters  : The task index -> const u16 Task_Index
   Return type : u16 */
