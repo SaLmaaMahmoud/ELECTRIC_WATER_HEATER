@@ -15,8 +15,8 @@
 #define F_CPU		8000000		//The crystal oscillator frequency
 
 /* PUSHBUTTONS */
-#define UP_DIR			INPUT
-#define UP_PORT			PORT_B
+#define UP_DIR      INPUT
+#define UP_PORT     PORT_B
 #define UP_PIN			PIN3
 
 #define DOWN_DIR		INPUT
@@ -49,7 +49,7 @@
 /***********************/
 
 /* 7-SEGMENT */
-#define SSD_DIRECTION	OUTPUT
+#define SSD_DIRECTION OUTPUT
 #define SSD_PORT		  PORT_D
 #define SSD_EN_PORT		PORT_C
 #define SSD1_EN_PIN		PIN3
