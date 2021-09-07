@@ -123,19 +123,6 @@ void SCH_Start(void)
 	sei() ;
 }
 
-void SCH_STOP(void)
-{
-	u8 INDEX = 0 ;
-	
-		
-	for (INDEX=0 ; INDEX<SCH_MAX_TASKS ; INDEX++)
-	{
-		SCH_tasks_G[INDEX].delay = SCH_tasks_G[INDEX].delay ;
-	}
-}
-
-
-
 u16 SCH_Delete_Task(const u16 Task_Index)
 {
 	u16 Return_Code ;
