@@ -19,7 +19,7 @@ void SW_Init(void)
 {		
 	GPIO_voidSetPortPinDirection(UP_PORT , UP_PIN , UP_DIR) ;
 	GPIO_voidSetPortPinDirection(DOWN_PORT , DOWN_PIN , DOWN_DIR) ;
-	GPIO_voidSetPortPinDirection(ON_OFF_PORT , ON_OFF_PIN , ON_OFF_PIN) ;
+	GPIO_voidSetPortPinDirection(ON_OFF_PORT , ON_OFF_PIN , ON_OFF_DIR) ;
 	
 	GPIO_voidSetPortPinValue(UP_PORT , UP_PIN , 1) ;
 	GPIO_voidSetPortPinValue(DOWN_PORT , DOWN_PIN , 1) ;
